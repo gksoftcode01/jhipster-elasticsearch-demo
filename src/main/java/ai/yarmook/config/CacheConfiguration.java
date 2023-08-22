@@ -48,6 +48,18 @@ public class CacheConfiguration {
             createCache(cm, ai.yarmook.domain.User.class.getName());
             createCache(cm, ai.yarmook.domain.Authority.class.getName());
             createCache(cm, ai.yarmook.domain.User.class.getName() + ".authorities");
+            createCache(cm, ai.yarmook.domain.Department.class.getName());
+            createCache(cm, ai.yarmook.domain.Department.class.getName() + ".employees");
+            createCache(cm, ai.yarmook.domain.JobHistory.class.getName());
+            createCache(cm, ai.yarmook.domain.Employee.class.getName());
+            createCache(cm, ai.yarmook.domain.Employee.class.getName() + ".jobs");
+            createCache(cm, ai.yarmook.domain.Task.class.getName());
+            createCache(cm, ai.yarmook.domain.Task.class.getName() + ".jobs");
+            createCache(cm, ai.yarmook.domain.Location.class.getName());
+            createCache(cm, ai.yarmook.domain.Job.class.getName());
+            createCache(cm, ai.yarmook.domain.Job.class.getName() + ".tasks");
+            createCache(cm, ai.yarmook.domain.Country.class.getName());
+            createCache(cm, ai.yarmook.domain.Region.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

@@ -1,0 +1,26 @@
+{
+  "applications": "*",
+  "entityTableName": "task",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "javadoc": "Task entity.\\n@author The JHipster team.",
+  "name": "Task",
+  "relationships": [
+    {
+      "otherEntityName": "job",
+      "otherEntityRelationshipName": "task",
+      "relationshipName": "job",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

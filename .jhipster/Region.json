@@ -1,0 +1,13 @@
+{
+  "applications": "*",
+  "entityTableName": "region",
+  "fields": [
+    {
+      "fieldName": "regionName",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Region",
+  "relationships": [],
+  "service": "serviceImpl"
+}

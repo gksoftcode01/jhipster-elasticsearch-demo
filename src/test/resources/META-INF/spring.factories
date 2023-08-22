@@ -1,0 +1,3 @@
+org.springframework.test.context.ContextCustomizerFactory = ai.yarmook.config.\
+    TestContainersSpringContextCustomizerFactory,ai.yarmook.config.\
+    SqlTestContainersSpringContextCustomizerFactory
